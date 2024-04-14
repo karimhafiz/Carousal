@@ -6,6 +6,7 @@ body {
 	color: #eee;
 	font-family: Poppins;
 	font-size: 12px;
+	overflow-x: hidden;
 }
 
 a {
@@ -22,6 +23,9 @@ header {
 	position: relative;
 	z-index: 100;
 	background-color: #000;
+}
+.nav {
+	overflow: hidden;
 }
 .navbar {
 	z-index: 1000;
@@ -54,6 +58,7 @@ a:hover {
 /* slider section  */
 
 .slider {
+	overflow-y: hidden;
 	height: 100vh;
 	margin-top: -50px;
 	width: 100vw;
@@ -353,4 +358,11 @@ a:hover {
 }
 video::-webkit-media-controls {
 	height: 300px; /* Adjust the height as needed */
+}
+.carousel-item img {
+	max-width: 100%; /* Limit the maximum width */
+	max-height: 300px; /* Set a maximum height for the pictures */
+	width: auto; /* Ensure the width adjusts proportionally */
+	height: auto; /* Ensure the height adjusts proportionally */
+	object-fit: cover; /* Cover the entire area */
 }

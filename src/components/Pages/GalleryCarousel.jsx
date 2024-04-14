@@ -21,7 +21,7 @@ const GalleryCarousel = ({ items }) => {
 						/>
 					)}
 					{item.type === "video" && (
-						<video className="d-block w-100" controls>
+						<video className="d-block w-100" controls autoPlay autoFocus>
 							<source src={item.src} type="video/mp4" />
 							Your browser does not support the video tag.
 						</video>

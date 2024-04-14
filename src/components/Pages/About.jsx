@@ -38,12 +38,7 @@ const AboutUs = () => {
 					<p>Welcome to our company!</p>
 				</Col>
 			</Row>
-			<TextSection title="Our Story">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-					odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-				</p>
-			</TextSection>
+
 			<TextSection title="Our Gallery">
 				<GalleryCarousel items={carouselItems} />
 			</TextSection>
