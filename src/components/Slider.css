@@ -1,0 +1,27 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+}
+
+.slider-container {
+	position: relative;
+	width: 100%;
+	max-width: 800px; /* Adjust as needed */
+	height: 70vh; /* Adjust as needed */
+	margin-top: 20px; /* Adjust as needed */
+}
